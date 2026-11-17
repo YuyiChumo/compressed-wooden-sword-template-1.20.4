@@ -1,4 +1,4 @@
-package 你的包名; // 保持和你主类一样的 package
+package com.yuyichumo.compressedwood; // 保持和你主类一样的 package
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
