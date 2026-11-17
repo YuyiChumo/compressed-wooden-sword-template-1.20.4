@@ -8,8 +8,4 @@ public class CompressedWoodenSword implements ModInitializer {
 		// 调用物品注册
 		ModItems.registerItems();
 	}
-
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
 }

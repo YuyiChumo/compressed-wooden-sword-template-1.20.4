@@ -1,4 +1,4 @@
-package com.yuyichumo.compressedwood; // 保持和你主类一样的 package
+package com.yuyichumo.compressedwood;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -11,6 +11,9 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    // 命名空间必须与 fabric.mod.json 里的 mod id 完全一致，且只能用小写字母
+    public static final String MOD_ID = "compressed-wooden-sword";
+
     // 参数：基础材质(木)、伤害(3)、攻击速度(-2.4)、物品设置
     public static final Item COMPRESSED_WOODEN_SWORD = new SwordItem(
             ToolMaterials.WOOD,
@@ -21,8 +24,8 @@ public class ModItems {
 
     // 写一个注册方法
     public static void registerItems() {
-        // 把物品注册进游戏，ID 为 compressedwooden_sword
-        Registry.register(Registries.ITEM, new Identifier("compressedwooden", "compressed_wooden_sword"), COMPRESSED_WOODEN_SWORD);
+        // 把物品注册进游戏，ID 为 compressed_wooden_sword
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_wooden_sword"), COMPRESSED_WOODEN_SWORD);
 
         // 把物品放进创造模式的“战斗”分类里
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
