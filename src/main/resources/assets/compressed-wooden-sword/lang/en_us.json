@@ -8,5 +8,6 @@
 	"item.compressed-wooden-sword.sixth_order_compressed_stick": "Sixth order Compressed Stick",
 	"item.compressed-wooden-sword.seventh_order_compressed_stick": "Seventh order Compressed Stick",
 	"item.compressed-wooden-sword.eighth_order_compressed_stick": "Eighth order Compressed Stick",
-	"item.compressed-wooden-sword.ninth_order_compressed_stick": "Ninth order Compressed Stick"
+	"item.compressed-wooden-sword.ninth_order_compressed_stick": "Ninth order Compressed Stick",
+	"itemGroup.compressed-wooden-sword.compressed_group": "Compressed Crafting"
 }

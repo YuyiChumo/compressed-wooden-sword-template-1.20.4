@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "compressed-wooden-sword",
 	"version": "${version}",
-	"name": "Compressed Wooden Sword",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "压缩木剑 (Compressed Wooden Sword)",
+	"description": "添加了从一重到九重的压缩木棍，以及一把威力巨大的压缩木剑",
 	"authors": [
-		"Me!"
+		"Github: YuyiChumo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

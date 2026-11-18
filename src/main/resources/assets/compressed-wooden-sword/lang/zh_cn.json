@@ -8,5 +8,6 @@
 	"item.compressed-wooden-sword.sixth_order_compressed_stick": "六重压缩木棍",
 	"item.compressed-wooden-sword.seventh_order_compressed_stick": "七重压缩木棍",
 	"item.compressed-wooden-sword.eighth_order_compressed_stick": "八重压缩木棍",
-	"item.compressed-wooden-sword.ninth_order_compressed_stick": "九重压缩木棍"
+	"item.compressed-wooden-sword.ninth_order_compressed_stick": "九重压缩木棍",
+	"itemGroup.compressed-wooden-sword.compressed_group": "压缩工艺"
 }
