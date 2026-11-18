@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
-    " S ",
-    " W "
+    " C ",
+    " C ",
+    " S "
   ],
   "key": {
+    "C": {
+      "item": "compressed-wooden-sword:compressed_stick"
+    },
     "S": {
       "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

@@ -22,12 +22,18 @@ public class ModItems {
             new Item.Settings()
     );
 
-    // 写一个注册方法
+    // 注册一阶压缩木棍
+    public static final Item COMPRESSED_STICK = new Item(new Item.Settings());
+
     public static void registerItems() {
-        // 把物品注册进游戏，ID 为 compressed_wooden_sword
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_wooden_sword"), COMPRESSED_WOODEN_SWORD);
 
-        // 把物品放进创造模式的“战斗”分类里
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_stick"), COMPRESSED_STICK);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(COMPRESSED_STICK);
+        });
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
             content.add(COMPRESSED_WOODEN_SWORD);
         });
