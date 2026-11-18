@@ -2,5 +2,11 @@
 	"item.compressed-wooden-sword.compressed_wooden_sword": "压缩木剑",
 	"item.compressed-wooden-sword.single_compressed_stick": "一重压缩木棍",
 	"item.compressed-wooden-sword.double_compressed_stick": "二重压缩木棍",
-	"item.compressed-wooden-sword.triple_compressed_stick": "三重压缩木棍"
+	"item.compressed-wooden-sword.triple_compressed_stick": "三重压缩木棍",
+	"item.compressed-wooden-sword.quadruple_compressed_stick": "四重压缩木棍",
+	"item.compressed-wooden-sword.fifth_order_compressed_stick": "五重压缩木棍",
+	"item.compressed-wooden-sword.sixth_order_compressed_stick": "六重压缩木棍",
+	"item.compressed-wooden-sword.seventh_order_compressed_stick": "七重压缩木棍",
+	"item.compressed-wooden-sword.eight_order_compressed_stick": "八重压缩木棍",
+	"item.compressed-wooden-sword.ninth_order_compressed_stick": "九重压缩木棍"
 }

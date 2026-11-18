@@ -2,5 +2,11 @@
 	"item.compressed-wooden-sword.compressed_wooden_sword": "Compressed Wooden Sword",
 	"item.compressed-wooden-sword.single_compressed_stick": "Single Compressed Stick",
 	"item.compressed-wooden-sword.double_compressed_stick": "Double Compressed Stick",
-	"item.compressed-wooden-sword.triple_compressed_stick": "Triple Compressed Stick"
+	"item.compressed-wooden-sword.triple_compressed_stick": "Triple Compressed Stick",
+	"item.compressed-wooden-sword.quadruple_compressed_stick": "Quadruple Compressed Stick",
+	"item.compressed-wooden-sword.fifth_order_compressed_stick": "Fifth order Compressed Stick",
+	"item.compressed-wooden-sword.sixth_order_compressed_stick": "Sixth order Compressed Stick",
+	"item.compressed-wooden-sword.seventh_order_compressed_stick": "Seventh order Compressed Stick",
+	"item.compressed-wooden-sword.eight_order_compressed_stick": "Eighth order Compressed Stick",
+	"item.compressed-wooden-sword.ninth_order_compressed_stick": "Ninth order Compressed Stick"
 }

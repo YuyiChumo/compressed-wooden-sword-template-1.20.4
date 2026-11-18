@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "compressed-wooden-sword:quadruple_compressed_stick"
+    }
+  },
+  "result": {
+    "item": "compressed-wooden-sword:fifth_order_compressed_stick",
+    "count": 1
+  }
+}

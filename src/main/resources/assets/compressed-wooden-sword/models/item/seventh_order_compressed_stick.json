@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "compressed-wooden-sword:item/seventh_order_compressed_stick"
+  }
+}

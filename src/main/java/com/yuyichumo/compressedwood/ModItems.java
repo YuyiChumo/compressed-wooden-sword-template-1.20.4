@@ -24,14 +24,26 @@ public class ModItems {
 
     public static final Item SINGLE_COMPRESSED_STICK = new Item(new Item.Settings());
     public static final Item DOUBLE_COMPRESSED_STICK = new Item(new Item.Settings());
-    public static final Item Triple_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item TRIPLE_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item QUADRUPLE_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item FIFTH_ORDER_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item SIXTH_ORDER_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item SEVENTH_ORDER_SINGLE_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item EIGHTH_ORDER_COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item NINTH_ORDER_COMPRESSED_STICK = new Item(new Item.Settings());
 
     public static void registerItems() {
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_wooden_sword"), COMPRESSED_WOODEN_SWORD);
 
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "single_compressed_stick"), SINGLE_COMPRESSED_STICK);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "double_compressed_stick"), DOUBLE_COMPRESSED_STICK);
-        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "double_compressed_stick"), Triple_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "triple_compressed_stick"), TRIPLE_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "quadruple_compressed_stick"), QUADRUPLE_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "fifth_order_compressed_stick"), FIFTH_ORDER_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "sixth_order_compressed_stick"), SIXTH_ORDER_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "seventh_order_compressed_stick"), SEVENTH_ORDER_SINGLE_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "eighth_order_compressed_stick"), EIGHTH_ORDER_COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "ninth_order_compressed_stick"), NINTH_ORDER_COMPRESSED_STICK);
 
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
@@ -45,7 +57,25 @@ public class ModItems {
             content.add(DOUBLE_COMPRESSED_STICK);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-            content.add(Triple_COMPRESSED_STICK);
+            content.add(TRIPLE_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(QUADRUPLE_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(FIFTH_ORDER_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(SIXTH_ORDER_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(SEVENTH_ORDER_SINGLE_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(EIGHTH_ORDER_COMPRESSED_STICK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(NINTH_ORDER_COMPRESSED_STICK);
         });
     }
 }
