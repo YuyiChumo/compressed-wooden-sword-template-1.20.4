@@ -22,20 +22,31 @@ public class ModItems {
             new Item.Settings()
     );
 
+
     // 注册一阶压缩木棍
-    public static final Item COMPRESSED_STICK = new Item(new Item.Settings());
+    public static final Item SINGLE_COMPRESSED_STICK = new Item(new Item.Settings());
+
+    // 注册二阶压缩木棍
+    public static final Item DOUBLE_COMPRESSED_STICK = new Item(new Item.Settings());
 
     public static void registerItems() {
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_wooden_sword"), COMPRESSED_WOODEN_SWORD);
 
-        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "compressed_stick"), COMPRESSED_STICK);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "single_compressed_stick"), SINGLE_COMPRESSED_STICK);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-            content.add(COMPRESSED_STICK);
-        });
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "double_compressed_stick"), DOUBLE_COMPRESSED_STICK);
+
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
             content.add(COMPRESSED_WOODEN_SWORD);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(SINGLE_COMPRESSED_STICK);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+            content.add(DOUBLE_COMPRESSED_STICK);
         });
     }
 }

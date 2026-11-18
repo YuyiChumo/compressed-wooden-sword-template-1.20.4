@@ -1,4 +1,5 @@
 {
 	"item.compressed-wooden-sword.compressed_wooden_sword": "压缩木剑",
-	"item.compressed-wooden-sword.compressed_stick": "压缩木棍"
+	"item.compressed-wooden-sword.single_compressed_stick": "一重压缩木棍",
+	"item.compressed-wooden-sword.double_compressed_stick": "二重压缩木棍"
 }
