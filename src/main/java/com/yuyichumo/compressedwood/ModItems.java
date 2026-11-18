@@ -17,8 +17,8 @@ public class ModItems {
     // 参数：基础材质(木)、伤害(3)、攻击速度(-2.4)、物品设置
     public static final Item COMPRESSED_WOODEN_SWORD = new SwordItem(
             ToolMaterials.WOOD,
-            3,
-            -2.4F,
+            99,
+            -2.4f,
             new Item.Settings()
     );
 
