@@ -1,5 +1,6 @@
 {
 	"item.compressed-wooden-sword.compressed_wooden_sword": "Compressed Wooden Sword",
 	"item.compressed-wooden-sword.single_compressed_stick": "Single Compressed Stick",
-	"item.compressed-wooden-sword.double_compressed_stick": "Double Compressed Stick"
+	"item.compressed-wooden-sword.double_compressed_stick": "Double Compressed Stick",
+	"item.compressed-wooden-sword.triple_compressed_stick": "Triple Compressed Stick"
 }
