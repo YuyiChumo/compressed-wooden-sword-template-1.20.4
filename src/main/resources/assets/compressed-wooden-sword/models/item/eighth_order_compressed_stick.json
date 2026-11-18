@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "compressed-wooden-sword:item/eight_order_compressed_stick"
+    "layer0": "compressed-wooden-sword:item/eighth_order_compressed_stick"
   }
 }
